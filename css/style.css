@@ -1,0 +1,353 @@
+
+header{
+    background-image:linear-gradient(#0000006c 0% 100%) ,url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+header .container {
+    
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+.nav-bar{
+    background-color: #000000dd;
+}
+.container .caption{
+color: white;
+}
+.container .caption .head-line {
+    font-size: 65px;
+}
+.container .caption .anim-span {
+    color: #ffffff;
+    font-size: x-large;
+    text-align: center !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    
+
+}
+ 
+/* end home */
+/* start about */
+body{
+    background-color: #F5F5F5;
+}
+#About .container{
+    background-color:#FFFFFF;
+    box-shadow: 1px 1px 14px 1px #00000025;
+}
+#About .container .brdr{
+    height: 3px;
+    background-color:#0D6EFD;
+    width: 100px;
+}
+#About .container .about-me p{
+    margin-block: 30px;
+    color: #656765;
+}
+#About .container .about-left-b{
+    margin-left: 40px;
+}
+#About .container .about-left-b h5{
+    margin-top: 30px;
+    margin-bottom: 1.1rem;
+}
+
+/* end about */
+/* start service */
+#service .container h2,p{
+    text-align: center;
+}
+#service .container .brdr{
+    height: 3px;
+        background-color: #0D6EFD;
+        width: 50px;
+        margin: auto;
+}
+#service .container .card-body h5{
+    text-align: center;
+  }
+#service .container .card-body p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+}
+
+
+
+#service .container .card-icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 40px;   
+}
+#service .container .card-icon i:hover{
+    background-color: #0D6EFD;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+#service .container .card-icon {
+    
+        margin: auto;
+        display: flex;
+        align-items: center;
+}
+
+#service .container .card-icon .ico-circle{
+    width: 100px;
+    position: relative;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0D6EFD;
+}
+#service .container .card-icon .ico-circle:hover i{
+box-shadow: 0 0 0 10px #CDE1F8;
+}
+/* end service */
+
+/* start overlay */
+#overlay  {
+    
+    background-image: linear-gradient(#0d6dfd5e 0% 100%), url("../images/post-3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+ #overlay .container .counter-ico i {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CDE1F8;
+    position: relative;
+    
+
+
+}
+#overlay .container .counter-ico .ico-circle {
+    width: 60px;
+    position: absolute;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    /* vertical-align: middle; */
+    box-shadow: 0 0 0 10px #CDE1F8;
+    
+}
+
+#overlay .p1{
+    font-size: 26px;
+}
+#overlay {
+    color: #FFFFFF;
+}
+/* end overlay */
+/* start portfolio */
+#work .container h2,
+p {
+    margin-top: 30px;
+    text-align: center;
+}
+#work .container .brdr {
+    height: 3px;
+    background-color: #0D6EFD;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#work .container .card:hover img{
+    transform: scale(1.2);
+}
+#work .container .card .card-image1 img{
+    transition: all .5s;
+}
+#work .container .card {
+    overflow: hidden;
+}
+#work .container .card2-icon .ico-circle {
+    width: 35px;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    height: 35px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 2px #0D6EFD;
+    
+}
+
+#work .container span{
+    color: #0D6EFD;
+
+}
+#work .container .card-image1{
+    position: relative;
+    transition:all ,5s; 
+}
+#work .container .card-image1 :hover{
+    transform: scale(1.1); 
+}
+#work .container .card2-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: #0D6EFD;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: #0D6EFD; */
+    font-size: 22px;
+    border: 2px solid #0D6EFD;
+}
+/* endwork */
+/* start slider */
+#slider{
+    background-image: linear-gradient(#0d6dfda0 0% 100% ), url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.carousel-indicators [data-bs-target]{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+/* end slider */
+/* start blog */
+#blog .container .brdr {
+    height: 3px;
+    background-color: #0D6EFD;
+    width: 50px;
+    margin: auto;
+}
+#blog .container h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+    
+}
+/* #blog .container .blog-color :hover{
+    color: #0D6EFD;
+}
+.card-footer:last-child :hover{
+color: #0D6EFD; !important
+} */
+#blog .container .card-category{
+    margin: auto;
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+    padding: 0px 15px 5px 15px;
+    overflow: hidden;
+    border-radius: 4px;
+    position: absolute;
+    top: 43%;
+    left: 35%;
+    
+}
+#blog .container .card-category h5{
+    font-size: 16px;
+}
+#blog .container .author:hover{
+    color: #0D6EFD;
+}
+/* end blog */
+/* start contact */
+#contact {
+    background-image: linear-gradient(#0d6dfd63 0% 100%), url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+#contact .container{
+    background-color: #FFFFFF;
+    
+    padding-bottom: 30px;
+    
+}
+#contact .container .brdr {
+    height: 3px;
+    background-color: #0D6EFD;
+    width: 110px;
+    
+}
+#contact .container .bt-contact{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+#contact .container .list-ico{
+    list-style: none;
+}
+#contact .container .list-ico span{
+    color: #0D6EFD;
+}
+#contact .container .contact-social ul{
+    list-style: none;
+    display: flex;
+    
+    
+}
+#contact .container .contact-social ul a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: #0D6EFD; */
+    font-size: 22px;
+    border: 4px solid #0D6EFD;
+}
+*{
+    text-decoration: none !important;
+}
+#contact .container .contact-social ul a:hover{
+border: 4px solid #CDE1F8;
+background-color: #0D6EFD;
+color: #FFFFFF;
+}
+
+/* end contact */
+/* start footer */
+footer{
+    background-color: #0062D3;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer a{
+    color: #FFFFFF;
+    
+}
+
+
+
+
+
